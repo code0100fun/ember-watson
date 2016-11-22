@@ -23,6 +23,7 @@
     "commander": "^2.6.0",
     "exists-sync": "0.0.3",
     "inflected": "^1.1.6",
+    "jscodeshift": "^0.3.30",
     "recast": "^0.10.29",
     "walk-sync": "^0.1.3"
   },
