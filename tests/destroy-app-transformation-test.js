@@ -1,7 +1,6 @@
 var Watson = require('../index.js');
 var fs = require('fs');
 var astEquality = require('./helpers/ast-equality');
-var recast = require('recast');
 
 describe('convert acceptance tests to use destroy-app helper', function() {
   it('makes the correct transformations - qunit', function() {

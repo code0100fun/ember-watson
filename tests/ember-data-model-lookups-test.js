@@ -3,7 +3,6 @@
 var Watson      = require('../index.js');
 var fs          = require('fs');
 var astEquality = require('./helpers/ast-equality');
-var recast      = require('recast');
 
 describe('ember data model lookups', function(){
   var baseDir = './tests/fixtures/ember-data-model-lookups';

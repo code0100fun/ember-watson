@@ -3,8 +3,6 @@
 var Watson      = require('../index.js');
 var fs          = require('fs');
 var astEquality = require('./helpers/ast-equality');
-var recast      = require('recast');
-
 
 describe('ember data isNewSerializerAPI', function(){
   var baseDir = './tests/fixtures/remove-ember-data-is-new-serializer-api';

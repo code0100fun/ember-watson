@@ -1,7 +1,6 @@
 var Watson = require('../index.js');
 var fs = require('fs');
 var astEquality = require('./helpers/ast-equality');
-var recast = require('recast');
 
 describe('computed properties, observers and event observers extending prototype', function() {
   it('makes the correct transformations', function() {
